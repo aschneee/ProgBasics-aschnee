@@ -31,6 +31,12 @@ public class ProgBasics : MonoBehaviour {
         //Gleichheits Operatoren
         Debug.Log("Gleichheits Operatoren: 20==20 = " + (20 == 20));
         Debug.Log("Gleichheits Operatoren: 10!=20 = " + (10 != 20));
+
+        //Logische Operatoren
+        Debug.Log("Logische Operatoren: true&true = " + (true & true));
+        Debug.Log("Logische Operatoren: false&&true = " + (false && true));
+        Debug.Log("Logische Operatoren: false|true = " + (false | true));
+        Debug.Log("Logische Operatoren: true||false = " + (true || false));
     }
 
 
