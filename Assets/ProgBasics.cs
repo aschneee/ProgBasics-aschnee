@@ -13,7 +13,13 @@ public class ProgBasics : MonoBehaviour {
      Debug.Log("Multiplikative Operatoren: 100/3 = " + (100 / 3));
      Debug.Log("Multiplikative Operatoren: 20%10 = " + (20 % 10));
 
+
+
+      //Additive Operatoren
+      Debug.Log("Additive Operatoren: 20+4 = " + (20 + 4));
+      Debug.Log("Additive Operatoren: 20-4 = " + (20 - 4));
     }
+
 
     // Update is called once per frame
     void Update () {
