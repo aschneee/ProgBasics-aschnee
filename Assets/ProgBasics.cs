@@ -26,6 +26,11 @@ public class ProgBasics : MonoBehaviour {
      Debug.Log("Relationale Operatoren: 20<=20 = " + (20 <= 20));
      Debug.Log("Relationale Operatoren: 20>4 = " + (20 > 4));
      Debug.Log("Relationale Operatoren: 20>=4 = " + (20 >= 21));
+
+
+        //Gleichheits Operatoren
+        Debug.Log("Gleichheits Operatoren: 20==20 = " + (20 == 20));
+        Debug.Log("Gleichheits Operatoren: 10!=20 = " + (10 != 20));
     }
 
 
