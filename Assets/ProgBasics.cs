@@ -8,11 +8,15 @@ public class ProgBasics : MonoBehaviour {
 	void Start () {
         Debug.Log("erste Tests mit Operatoren");
 
-   
+     //Multiplikative Operatoren
+     Debug.Log("Multiplikative Operatoren: 2*3 = " + (2 * 3));
+     Debug.Log("Multiplikative Operatoren: 100/3 = " + (100 / 3));
+     Debug.Log("Multiplikative Operatoren: 20%10 = " + (20 % 10));
+
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update () {
 		
 	}
 }
