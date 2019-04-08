@@ -18,6 +18,14 @@ public class ProgBasics : MonoBehaviour {
       //Additive Operatoren
       Debug.Log("Additive Operatoren: 20+4 = " + (20 + 4));
       Debug.Log("Additive Operatoren: 20-4 = " + (20 - 4));
+
+
+
+     //Relationale Operatoren
+     Debug.Log("Relationale Operatoren: 20<4 = " + (20 < 4));
+     Debug.Log("Relationale Operatoren: 20<=20 = " + (20 <= 20));
+     Debug.Log("Relationale Operatoren: 20>4 = " + (20 > 4));
+     Debug.Log("Relationale Operatoren: 20>=4 = " + (20 >= 21));
     }
 
 
