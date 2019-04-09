@@ -15,9 +15,9 @@ public class ProgBasics : MonoBehaviour {
 
 
 
-      //Additive Operatoren
-      Debug.Log("Additive Operatoren: 20+4 = " + (20 + 4));
-      Debug.Log("Additive Operatoren: 20-4 = " + (20 - 4));
+     //Additive Operatoren
+     Debug.Log("Additive Operatoren: 20+4 = " + (20 + 4));
+     Debug.Log("Additive Operatoren: 20-4 = " + (20 - 4));
 
 
 
@@ -28,15 +28,15 @@ public class ProgBasics : MonoBehaviour {
      Debug.Log("Relationale Operatoren: 20>=4 = " + (20 >= 21));
 
 
-        //Gleichheits Operatoren
-        Debug.Log("Gleichheits Operatoren: 20==20 = " + (20 == 20));
-        Debug.Log("Gleichheits Operatoren: 10!=20 = " + (10 != 20));
+     //Gleichheits Operatoren
+     Debug.Log("Gleichheits Operatoren: 20==20 = " + (20 == 20));
+     Debug.Log("Gleichheits Operatoren: 10!=20 = " + (10 != 20));
 
-        //Logische Operatoren
-        Debug.Log("Logische Operatoren: true&true = " + (true & true));
-        Debug.Log("Logische Operatoren: false&&true = " + (false && true));
-        Debug.Log("Logische Operatoren: false|true = " + (false | true));
-        Debug.Log("Logische Operatoren: true||false = " + (true || false));
+     //Logische Operatoren
+     Debug.Log("Logische Operatoren: true&true = " + (true & true));
+     Debug.Log("Logische Operatoren: false&&true = " + (false && true));
+     Debug.Log("Logische Operatoren: false|true = " + (false | true));
+     Debug.Log("Logische Operatoren: true||false = " + (true || false));
     }
 
 
