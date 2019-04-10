@@ -12,8 +12,20 @@ public class ProgBasics : MonoBehaviour
         Operators();
         Test();
         Test2();
-        AddNumbers(1,2);
-        Mult(2, 3, 6, 7);
+        AddNumbers(1, 2);
+        AddNumbers(3, 6);
+        MultNumbers(2, 3, 6, 7);
+        Combine();
+        Debug.Log(MyText("aschnee2"));
+        // drama ist die variable 
+        string drama = MyText("aschnee1");
+        Debug.Log("neu " + drama);
+    }
+
+    public string MyText(string myName)
+    {
+        Debug.Log("DramaLog");
+        return "Drama" + " " + myName;  //mindestens ein leerer String muss drinnen stehen
     }
 
     public void Operators()
@@ -75,12 +87,24 @@ public class ProgBasics : MonoBehaviour
         Debug.Log("add numbers = " + c);
     }
 
-    public void Mult(int a, int b, int c, int d)
+    public void MultNumbers(int a, int b, int c, int d)
     {
         int e = a * b * c * d;
         Debug.Log("multiply numbers = " + e);
     }
 
+    public void Combine()
+    {
+        
+        //MultNumbers(4, 5, 3, 2);
+        //Operators();
+        AddNumbers(200, 500);
+
+    }
+
+    // Methode die sring retour gibt
+
+  
     // Update is called once per frame
     void Update () {
 		
