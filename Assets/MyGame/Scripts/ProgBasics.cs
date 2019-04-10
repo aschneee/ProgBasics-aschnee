@@ -9,7 +9,9 @@ public class ProgBasics : MonoBehaviour
 	void Start () {
         //aufrufen der public void operators
         //Klammern sind die Parameter Liste
-        Operators();   
+        Operators();
+        Test();
+        Test2();
     }
 
     public void Operators()
