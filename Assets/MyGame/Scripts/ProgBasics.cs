@@ -12,6 +12,8 @@ public class ProgBasics : MonoBehaviour
         Operators();
         Test();
         Test2();
+        AddNumbers(1,2);
+        Mult(2, 3, 6, 7);
     }
 
     public void Operators()
@@ -63,6 +65,20 @@ public class ProgBasics : MonoBehaviour
     public void Test2 ()
     {
         Debug.Log("Test2 Logischer Operator: true und true = " + (true & true));
+    }
+
+    //int a ist eine Dekalration einer Variable 
+    //innerhalb de methode kann ich darauf zugreifen
+    public void AddNumbers(int a, int b)
+    {
+        int c = a + b;
+        Debug.Log("add numbers = " + c);
+    }
+
+    public void Mult(int a, int b, int c, int d)
+    {
+        int e = a * b * c * d;
+        Debug.Log("multiply numbers = " + e);
     }
 
     // Update is called once per frame
