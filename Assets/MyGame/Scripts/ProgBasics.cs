@@ -7,9 +7,13 @@ public class ProgBasics : MonoBehaviour
     public int test1;
     public float test2;
     public string test3;
+    public string name = "Alina";
+    public string nachname = "Schneeberger";
+    public string alter = "18";
+   
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         //aufrufen der public void operators
         //Klammern sind die Parameter Liste
         test1 = 1;
@@ -27,6 +31,9 @@ public class ProgBasics : MonoBehaviour
         AddNumbers(3, 6);
         MultNumbers(2, 3, 6, 7);
         Combine();
+        MyName();
+        TestsCombined();
+        NameAlter();
         Debug.Log(MyText("aschnee2"));
         // drama ist die variable 
         string drama = MyText("aschnee1");
@@ -90,6 +97,43 @@ public class ProgBasics : MonoBehaviour
         Debug.Log("Test2 Logischer Operator: true und true = " + (true & true));
     }
 
+    public void TestsCombined()
+    {
+        Debug.Log("all tests: " + test1 + " " + test2 + " " + test3);
+    }
+
+    public void MyName()
+    {
+        Debug.Log("Ich bin " + name + " " + nachname);
+    }
+
+    public void NameAlter()
+    {
+        Debug.Log("Nname: " + name + " Alter: " + alter);
+    }
+
+    // methode referes to methode ABC
+    public void XY()
+    {
+        Debug.Log("Methode XY - führe ABC aus");
+        ABC();
+    }
+
+    public void ABC()
+    {
+        Debug.Log("ABC wird ausgeführt");
+        Debug.Log(1 + 2);
+    }
+
+    public void intAdd()
+    {
+        int eins;
+        eins = 1;
+        int vier;
+        vier = 4;
+
+        Debug.Log("int addieren " + (eins + vier));
+    }
     //int a ist eine Dekalration einer Variable 
     //innerhalb de methode kann ich darauf zugreifen
     public void AddNumbers(int a, int b)
