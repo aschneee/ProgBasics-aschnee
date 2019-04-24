@@ -8,7 +8,7 @@
 +Logische Operatoren
 
 + **Progress:** 80%
-+ **Status: ** 
++ **Status:** 
 	-not finished
 	-experimenting with variables and methodes not done
 	-test 2 string does not change its value
@@ -41,7 +41,8 @@
  //	
 
 + **Concept:
-** 
+**
+ 
 	- experimenting with differnet kind of variables and methodes,as well as operators 
 + **In game Screenshots:**
 
