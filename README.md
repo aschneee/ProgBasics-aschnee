@@ -14,7 +14,7 @@
  
 + **Trailer:** 
 + **PLAY THE GAME HERE:** 
-	-Game is not finished
+	- Game is not finished
 + **Development Platform:** 
 	Unity 2018.2.14f1, 
 	Visual Studio 15.9.4, 

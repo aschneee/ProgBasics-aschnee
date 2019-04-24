@@ -13,7 +13,13 @@ public class ProgBasics : MonoBehaviour
         //aufrufen der public void operators
         //Klammern sind die Parameter Liste
         test1 = 1;
-        Debug.Log("test 1 in Start" + test1);
+        test2 = 0.25F;
+        test3 = "test3";
+        Debug.Log("test 1 in start (mit int): " + test1);
+        Debug.Log("test 2 in start (mit float): " + test2);
+        Debug.Log("test 3 in start (mit string)" + test3);
+
+
         Operators();
         Test();
         Test2();
