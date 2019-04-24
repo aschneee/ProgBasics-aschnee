@@ -7,10 +7,11 @@
 +Gleichheits Operatoren
 +Logische Operatoren
 
-+ **Progress:** 50%
++ **Progress:** 80%
 + **Status: ** 
 	-not finished
 	-experimenting with variables and methodes not done
+	-test 2 string does not change its value
  
 + **Trailer:** 
 + **PLAY THE GAME HERE:** 
