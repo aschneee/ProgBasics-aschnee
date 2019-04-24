@@ -23,7 +23,6 @@ public class ProgBasics : MonoBehaviour
         Debug.Log("test 2 in start (mit float): " + test2);
         Debug.Log("test 3 in start (mit string)" + test3);
 
-
         Operators();
         Test();
         Test2();
@@ -40,15 +39,11 @@ public class ProgBasics : MonoBehaviour
         //return type
         string drama = MyText("aschnee1");
         Debug.Log("neu " + drama);
-   
         Debug.Log(StadtLand("Salzburg", "Austria"));
-
         Debug.Log(MyMeal("Schnitzel"));
-
     }
 
     
-
     public void Operators()
     {
         Debug.Log("erste Tests mit Operatoren");
@@ -173,6 +168,7 @@ public class ProgBasics : MonoBehaviour
 
 
     //return type 
+    // Methode die sring retour gibt
     public string MyText(string myName)
     {
         Debug.Log("DramaLog");
@@ -187,10 +183,6 @@ public class ProgBasics : MonoBehaviour
     {
         return "Lieblingsessen: " + favemeal;
     }
-
-    // Methode die sring retour gibt
-
-
     // Update is called once per frame
     void Update () {
 		
