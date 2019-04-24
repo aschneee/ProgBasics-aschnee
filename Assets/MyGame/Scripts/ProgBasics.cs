@@ -36,15 +36,17 @@ public class ProgBasics : MonoBehaviour
         NameAlter();
         Debug.Log(MyText("aschnee2"));
         // drama ist die variable 
+        //return type
         string drama = MyText("aschnee1");
         Debug.Log("neu " + drama);
+   
+        Debug.Log(StadtLand("Salzburg", "Austria"));
+
+        Debug.Log(MyMeal("Schnitzel"));
+
     }
 
-    public string MyText(string myName)
-    {
-        Debug.Log("DramaLog");
-        return "Drama" + " " + myName;  //mindestens ein leerer String muss drinnen stehen
-    }
+    
 
     public void Operators()
     {
@@ -159,9 +161,25 @@ public class ProgBasics : MonoBehaviour
 
     }
 
+    //return type 
+    public string MyText(string myName)
+    {
+        Debug.Log("DramaLog");
+        return "Drama" + " " + myName;  //mindestens ein leerer String muss drinnen stehen
+    }
+    
+        public string StadtLand(string stadt, string land)
+    {
+        return "Heimat: " + stadt + ", " + land;
+    }
+        public string MyMeal(string favemeal)
+    {
+        return "Lieblingsessen: " + favemeal;
+    }
+
     // Methode die sring retour gibt
 
-  
+
     // Update is called once per frame
     void Update () {
 		
