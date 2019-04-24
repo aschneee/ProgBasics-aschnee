@@ -34,6 +34,7 @@ public class ProgBasics : MonoBehaviour
         MyName();
         TestsCombined();
         NameAlter();
+        changeTest2();
         Debug.Log(MyText("aschnee2"));
         // drama ist die variable 
         //return type
@@ -136,6 +137,8 @@ public class ProgBasics : MonoBehaviour
 
         Debug.Log("int addieren " + (eins + vier));
     }
+
+
     //int a ist eine Dekalration einer Variable 
     //innerhalb de methode kann ich darauf zugreifen
     public void AddNumbers(int a, int b)
@@ -160,6 +163,14 @@ public class ProgBasics : MonoBehaviour
         AddNumbers(200, 500);
 
     }
+
+    //change value
+    public void changeTest2()
+    {
+        test2 = 123.45F;
+        Debug.Log("changed test2  " + test2);
+    }
+
 
     //return type 
     public string MyText(string myName)
